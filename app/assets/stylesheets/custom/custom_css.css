@@ -1,0 +1,8 @@
+/**** HOME ***/
+#home_div {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 600px;
+  position: fixed;
+}

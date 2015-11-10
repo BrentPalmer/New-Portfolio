@@ -1,0 +1,173 @@
+/**** SHARED ****/
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  page-break-after: avoid;
+
+}
+
+h1 {
+  color: #fff; 
+  text-align: center
+}
+
+h3 {
+  color: #fff; 
+  text-align: center
+}
+
+p {
+  text-align: center
+}
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; height: 500px; }
+.clear { clear: both; }
+
+
+
+
+
+
+
+/**** NAV ****/
+#nav_wrapper {
+  background-color: #000;
+  margin-top: 50px;
+  width: 100%;
+  height: 80px;
+  opacity: .6;
+  position: fixed;
+}
+
+#logo a { color: #fff; 
+  text-decoration: none; 
+  float: left; 
+  font-size: 30px; 
+  margin-top: 20px; 
+  color: #fff; 
+  font-weight: bold; }
+
+#nav {
+  width: 410px;
+  float: right;
+  margin-top: 20px;
+}
+
+#nav ul {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+}
+
+#nav li {
+  color: #fff;
+  margin-top: 9px;
+  float: left;
+  padding-left: 21px;
+}
+
+#nav li a { 
+  color: #fff; 
+  opacity:0.6; 
+  font-size: 16px; 
+  text-decoration: none;
+}
+
+#nav li a.active { 
+  color: #fff; 
+  opacity:1; 
+  border-bottom: 2px solid #fff; 
+}
+
+#nav li a:hover { color: #fff; 
+  opacity:1;  
+}
+
+
+
+
+/**** HOME ***/
+#home_div_wrapper {
+  background: url(https://scontent.fsan1-2.fna.fbcdn.net/hphotos-frc3/v/t1.0-9/10306748_10152451323597747_7854160382708183254_n.jpg?oh=d80db5ca9d167a905220a6f72d8c1523&oe=56BBCBC6) 100%  no-repeat fixed;
+  background-size: cover;
+  background-position: left bottom;
+  margin: -30px 0 0 0;
+  padding: 0px;
+  width: 100%;
+  height: 900px;
+}
+
+#home_content {
+  margin: 0 auto;
+  margin-right: 0px;
+  padding: 0px;
+  border:5px solid #fff;
+  width: 300px;
+  height: 150px;
+  position: relative;
+  bottom: -300px;
+}
+
+
+
+/**** ABOUT ****/
+#about_div_wrapper {
+  background-color: #FBFBFB;
+  margin: -25px 0 0 0;
+  width: 100%;
+  height: 600px;
+  padding: 0px;
+}
+
+
+
+
+/**** PROJECTS ****/
+#projects_div_wrapper {
+  background: url(http://thepaperwall.com/wallpapers/computer_tech/big/big_3827fb2e68d248d004e977b665938550497d28f9.jpg) 100% 0 no-repeat fixed;
+  margin: -25px 0 0 0;
+  width: 100%;
+  height: 750px;
+  padding: 0px;
+
+}
+
+
+
+
+/**** BLOG *****/
+#blog_div_wrapper {
+  background-color: #FBFBFB;
+  margin: -25px 0 0 0;
+  width: 100%;
+  height: 600px;
+  padding: 0px;
+}
+
+
+
+
+/**** CONTACT ****/
+#contact_div_wrapper {
+  background: url(http://trickvilla.com/wp-content/uploads/Wood-Desktop-Background.jpg) 100% 0 no-repeat fixed;
+  margin: -25px 0 0 0;
+  width: 100%;
+  height: 820px;
+  padding: 0px;
+
+}
+
+
+
+/**** FOOTER ****/
+#footer_div_wrapper {
+  background-color: #8383FF;
+  margin-top: -25px;
+  width: 100%;
+  height: 120px;
+  padding: 0px;
+  position: relative;
+}
+
