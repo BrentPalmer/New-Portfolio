@@ -121,6 +121,36 @@ p {
   padding: 0px;
 }
 
+#about_h1_style {
+  font-size: 3em;
+  color: #000;
+  padding-top: 120px;
+}
+
+#about_p1_style {
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#about_p2_style {
+  text-align: left;
+}
+
+#about_ul_style {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#about_ul_style li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  list-style-type: circle;
+}
+
 
 
 
@@ -132,6 +162,27 @@ p {
   height: 750px;
   padding: 0px;
 
+}
+
+#projects_wrapper {
+  background-color: #FBFBFB;
+  margin-top: -275px;
+  margin-right: 0px;
+  margin-left: 70%;
+  padding: 0px;
+  width: 350px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+#project_h1_style {
+  font-size: 3em;
+  color: #000;
+  padding-top: 20px;
+}
+
+.project {
+  text-align: center;
 }
 
 
@@ -146,6 +197,13 @@ p {
   padding: 0px;
 }
 
+#blog_h1_style {
+  font-size: 3em;
+  color: #000;
+  padding-top: 125px;
+  text-align: center;
+}
+
 
 
 
@@ -157,6 +215,38 @@ p {
   height: 820px;
   padding: 0px;
 
+}
+
+#contact_h1_style {
+  font-size: 4em;
+  color: #fff;
+  padding-top: 125px;
+}
+
+#contact_links_wrapper {
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact_links_wrapper a {
+  text-decoration: none;
+  color: #FBFBFB;
+  font-size: 5em;
+}
+
+#contact_form_wrapper {
+  margin-top: 20px;
+  background-color: ;
+  width: 40%;
+  margin-left: 30%;
+
+}
+
+.contact_form_style {
+  font-size: 2em;
+  text-align: center;
 }
 
 

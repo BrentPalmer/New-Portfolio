@@ -14,6 +14,7 @@
  *= require_tree .
  *= require_self
  *= require ./custom/custom_css
+ *= require font-awesome
 
  */
 

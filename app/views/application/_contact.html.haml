@@ -1,15 +1,21 @@
 %a{ name: 'contact' }
 #contact_div_wrapper
   .content
-    %div
-      %p{ style: 'padding-top: 120px'}
-        linkedin
-    %div
-      %p
-        Github
-    %div
-      %p
-        Contact Form
-    %div
-      %p
-        Footer
+    %h1#contact_h1_style
+      Contact
+    #contact_links_wrapper
+      %a{ href: 'https://www.linkedin.com/in/brent-palmer-096b2a6b'}
+        .fa.fa-linkedin-square
+
+      %a{ href: 'https://github.com/BrentPalmer'}
+        .fa.fa-github-square
+    #contact_form_wrapper
+      = form_tag email_path, method: 'post', class: 'contact_form_style' do
+        .form-group
+          = text_field_tag :name, nil, placeholder: "Name", class: 'form-control'
+        .form-group
+          = email_field_tag :email, nil, placeholder: "Email", class: 'form-control'
+        .form-group
+          = text_area_tag :message, nil, placeholder: "Message", class: 'form-control'
+        .form-group
+          = submit_tag "Send", class: 'btn btn-primary btn-lg'

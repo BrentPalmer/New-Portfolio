@@ -13,6 +13,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'spring',        group: :development
 gem 'haml'
 gem 'haml_assets'
+gem "font-awesome-rails"
+gem 'bootstrap-sass', '~> 3.3.5'
+
 
 
 
