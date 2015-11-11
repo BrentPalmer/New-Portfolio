@@ -15,6 +15,9 @@ gem 'haml'
 gem 'haml_assets'
 gem "font-awesome-rails"
 gem 'bootstrap-sass', '~> 3.3.5'
+gem 'figaro'
+gem 'mailgun-ruby', '~>1.0.2', require: 'mailgun'
+gem 'pry'
 
 
 

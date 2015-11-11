@@ -1,0 +1,5 @@
+
+- flash.each do |name, msg|
+  %a.close{"data-dismiss" => "alert"} ×
+  = content_tag :div, msg, class: "alert alert-info"
+  - flash.clear
