@@ -1,0 +1,14 @@
+.container
+	.row
+		.col-sm-10.col-sm-offset-1
+			%h1#blog_h1_style
+				New Post
+			= form_for @post do |f|
+				.form-group
+					= f.label :title
+					= f.text_field :title, class: 'form-control'
+				.form-group
+					= f.label :content
+					= f.text_area :content, class: 'form-control', rows: "15"
+				.form-group.pull-right
+					=f.submit "create", class: "btn btn-primary"

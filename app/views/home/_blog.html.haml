@@ -1,5 +1,11 @@
 %a{ name: 'blog' }
 #blog_div_wrapper
   .content
-    %h1#blog_h1_style 
+    %h1#blog_h1_style
       Blog
+    %div
+      - @posts.each do |post|
+        %p{  "data-target" => "#post_#{post.id}", "data-toggle" => "modal"}
+          = link_to post.id, post_path(post)
+
+        = render "posts/post", post: post

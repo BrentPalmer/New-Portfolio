@@ -13,7 +13,8 @@
  
  *= require_tree .
  *= require_self
- *= require ./custom/custom_css
+ *= require ./custom_css
+ *= require ./blog_css
  *= require font-awesome
 
  */
